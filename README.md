@@ -2,6 +2,8 @@
 
 A local voice browser agent that turns spoken or typed instructions into browser actions. It uses the Jev model through Impossibl's API.
 
+Demo : [Open Demo in YouTube](https://youtu.be/G2oyJKsSsHA)
+
 ## Architecture
 
 The project has two parts:
