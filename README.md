@@ -2,22 +2,6 @@
 
 A local voice browser agent that turns spoken or typed instructions into browser actions. It uses the Jev model through Impossibl's API.
 
-## Setup
-
-Install Bun, then copy `backend/.env.example` to `backend/.env` and add your `IMPOSSIBL_API_KEY`.
-
-## Run
-
-From the project root, run:
-
-```sh
-./run.sh
-```
-
-Open [http://localhost:3000](http://localhost:3000). The backend API runs at `http://127.0.0.1:8787`.
-
-The script checks for the backend and frontend tools before installing dependencies, then starts both development servers with a colored startup summary. Press Ctrl+C to stop them.
-
 ## Architecture
 
 The project has two parts:
@@ -53,6 +37,23 @@ The project has two parts:
 └──────────────┬──────────────┘
                └──── updated state and events ────▶ frontend
 ```
+
+## Setup
+
+Install Bun, then copy `backend/.env.example` to `backend/.env` and add your `IMPOSSIBL_API_KEY`.
+
+## Run
+
+From the project root, run:
+
+```sh
+./run.sh
+```
+
+Open [http://localhost:3000](http://localhost:3000). The backend API runs at `http://127.0.0.1:8787`.
+
+The script checks for the backend and frontend tools before installing dependencies, then starts both development servers with a colored startup summary. Press Ctrl+C to stop them.
+
 
 The backend flow is:
 
