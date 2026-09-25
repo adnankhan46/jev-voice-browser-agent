@@ -1,0 +1,1 @@
+{"compilerOptions":{"target":"ES2022","module":"Preserve","moduleResolution":"Bundler","strict":false,"skipLibCheck":true,"noEmit":true,"allowImportingTsExtensions":true,"types":["node","bun"]},"include":["src/**/*.ts"]}
