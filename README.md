@@ -80,3 +80,8 @@ The backend flow is:
 The backend reads `IMPOSSIBL_API_KEY` from `backend/.env`. Optional backend settings include `PORT`, `HOST`, `FRONTEND_ORIGIN`, `START_URL`, and `BROWSER_PROFILE_DIR`. The browser opens visibly by default and keeps its profile in `.browser-profile`. To attach to an existing Chrome instance, the backend supports the `--cdp` option.
 
 The frontend API and WebSocket addresses can be changed in `frontend/.env` using `NEXT_PUBLIC_API_URL` and `NEXT_PUBLIC_WS_URL`. Example values are in the `.env.example` files.
+
+
+## Inspiration | This Implementation is based on
+
+> https://github.com/moritzkremb/jev-voice-browser
